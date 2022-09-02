@@ -1,0 +1,33 @@
+{
+  "name": "npm-init-tutorial",
+  "version": "0.0.1",
+  "description": "Este repositorio sirve como tutorial para el correcto uso de npm init.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js # este es un comentario",
+    "dev": "nodemon src/app.js # script de nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuFede/language-reinforcement-npm-init.git"
+  },
+  "keywords": [
+    "npm",
+    "init",
+    "nodejs",
+    "tutorial",
+    "package-json"
+  ],
+  "author": "AuFede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AuFede/language-reinforcement-npm-init/issues"
+  },
+  "homepage": "https://github.com/AuFede/language-reinforcement-npm-init#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
